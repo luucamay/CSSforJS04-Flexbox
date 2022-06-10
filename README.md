@@ -1,4 +1,4 @@
-# Sole&Ankle — Module 4 workshop
+# Sole&Ankle — Flexbox — Challenge 4
 
 In this challenge, our goal is to finish building an e-commerce store!
 
