@@ -1,6 +1,6 @@
 # Sole&Ankle — Module 4 workshop
 
-In this workshop, our goal is to finish building an e-commerce store!
+In this challenge, our goal is to finish building an e-commerce store!
 
 The good news is, most of our work is done already. We just need to write some additional CSS to construct the layout; things are a bit messy right now!
 
@@ -51,7 +51,7 @@ _NOTE:_ To make life a bit easier, you may wish to comment out the `<ShoeGrid>` 
 
 ## Exercise 4: Shoe Grid
 
-This exercise features two mini-challenges. The second one is a chance to revisit some of the lessons learned in previous modules, and isn't as specific to Flexbox.
+This exercise features two mini-challenges. The second one is a chance to revisit some of the concepts in previous challenges, and isn't as specific to Flexbox so feel free to skip that one.
 
 ### 4A: Grid layout
 
@@ -71,12 +71,12 @@ In a future module, we'll revisit this and see how CSS Grid can help us out :)
 
 Our sneaker store is in pretty good shape, but there's a couple small bits of polish missing: the "New Release" / "Sale" flag, and the sale price detail.
 
-_NOTE:_ This exercise has minimal flexbox implications, and is mainly about revisiting lessons learned in the previous modules (including positioned layout and styled-components). Feel free to skip it if you'd prefer!
+_NOTE:_ This exercise has minimal flexbox implications, and is mainly about revisiting concepts from the previous challenges (including positioned layout and styled-components). Feel free to skip it if you'd prefer!
 
 ![Screenshot of the store, with the final details added](./docs/exercise-4b-solution.png)
 
 ## To be continued!
 
-Our sneaker store can flex to support different screen sizes, but there isn't a proper mobile or tablet view. Don't fret — we will revisit this workshop in a future module!
+Our sneaker store can flex to support different screen sizes, but there isn't a proper mobile or tablet view. Don't fret — we will work on this in the future!
 
-In the meantime, take a moment to congratulate yourself for making it through the Flexbox module!!
+In the meantime, take a moment to congratulate yourself for making it through the Flexbox challenge!!
