@@ -26,11 +26,17 @@ const Wrapper = styled.div`
   background-color: ${COLORS.gray[900]};
   /* adding my styles here */
   display: flex;
+  padding: 12px 24px;
+
+  & > * {
+    padding: 0 8px;
+  }
   
 `;
 
 const MarketingMessage = styled.span`
   color: ${COLORS.white};
+  flex-grow: 3;
 `;
 
 const HelpLink = styled.a`
