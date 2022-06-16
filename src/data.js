@@ -93,6 +93,15 @@ const SHOES = [
     releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 120,
     numOfColors: 1,
   },
+  {
+    slug: 'lebron',
+    name: 'LeBron 17',
+    imageSrc: '/assets/lebron.jpg',
+    price: 26000,
+    salePrice: null,
+    releaseDate: Date.now() - 1000 * 60 * 60 * 24 * 120,
+    numOfColors: 1,
+  }
 ];
 
 export default SHOES;

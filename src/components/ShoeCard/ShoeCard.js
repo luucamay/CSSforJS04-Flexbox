@@ -1,9 +1,9 @@
-import React from 'react';
-import styled from 'styled-components/macro';
-
 import { COLORS, WEIGHTS } from '../../constants';
-import { formatPrice, pluralize, isNewShoe } from '../../utils';
+import { formatPrice, isNewShoe, pluralize } from '../../utils';
+
+import React from 'react';
 import Spacer from '../Spacer';
+import styled from 'styled-components/macro';
 
 const ShoeCard = ({
   slug,
@@ -53,15 +53,23 @@ const ShoeCard = ({
 const Link = styled.a`
   text-decoration: none;
   color: inherit;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 30%;
+  
 `;
 
 const Wrapper = styled.article``;
 
 const ImageWrapper = styled.div`
   position: relative;
+  width: 100%;
 `;
 
-const Image = styled.img``;
+const Image = styled.img`
+  width: inherit;
+  border-radius: 16px 16px 4px 4px;
+`;
 
 const Row = styled.div`
   font-size: 1rem;
